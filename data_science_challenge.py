@@ -17,8 +17,7 @@ import pandas as pd
 from sklearn.metrics import confusion_matrix as cm
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
-import matplotlib.pyplot as plt 
-!pip freeze
+import matplotlib.pyplot as plt
 
 """Primeiramente, faremos a leitura do CSV. Nota-se que o separador utilizado será `;` já que os dados não estão separados pelo separador padrão (`,`)."""
 
